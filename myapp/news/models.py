@@ -12,12 +12,3 @@ class News(models.Model):
     def __str__(self):
         return self.title
 
-
-
-    # id - INT
-    # title - varchar
-    # content - text
-    # created_at - DateTime
-    # updated-at - DateTime
-    # photo - Image
-    # is_published - Boolean
